@@ -17,7 +17,7 @@ This scope restricts the variable that is declared inside a specific block, from
 
 
 
-![](<Снимок экрана 2024-06-13 в 15.16.33.png>)
+![](https://www.scaler.com/topics/images/scope-in-javascript-thumbnail.webp)
 
 
 <h1>The scope chain</h1>
@@ -50,13 +50,20 @@ first():
 <br> <br>
 --> Hoisting in JavaScript isa behavior in which a function or a variable can be used before declaration.
 
-![alt text](<Снимок экрана 2024-06-13 в 15.31.17.png>)
+![alt text](https://res.cloudinary.com/practicaldev/image/fetch/s--Ceq9cg87--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/kaf11wh85tkhfv1338b4.png)
+
 
 
 ## H o i s t i n g- Va r i a b l e( v a r )
 
 There'sa temptationt othinkthatallofthecodeyouseei na JavaScript
 programi sinterpretedline-by-line,top-downi norder,a stheprogram execute.Whilethatisessentiallytrue,there'sonepartofthatas-assumption thatc a nleadtoincorrectthinkingaboutyourprogram.
+
+```
+a = 1;
+alert ( ' a = ' + a)
+vara;
+```
 
 ```js
 a = 1;
